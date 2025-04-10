@@ -10,6 +10,7 @@ import { Navigation } from "./components/Navigation";
 import ProtectedTestData from "./components/ProtectedTestData";
 import { TestData } from "./components/TestData";
 import { AuthProvider } from "./context/AuthContext";
+import HomePage from "./components/HomePage";
 
 function App() {
   return (
@@ -47,7 +48,7 @@ function App() {
                   </ProtectedRoute>
                 }
               />
-              <Route path="/" element={<div>Home is here</div>} />
+              <Route path="/" element={<div><HomePage/></div>} />
               {/* Other routes... */}
             </Routes>
           </Box>

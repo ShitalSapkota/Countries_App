@@ -15,5 +15,9 @@
     },
     "devDependencies": {
         "concurrently": "^8.2.2"
+    },
+    "dependencies": {
+        "@types/google.maps": "^3.58.1",
+        "axios": "^1.8.4"
     }
 }

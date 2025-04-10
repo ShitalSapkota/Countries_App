@@ -39,7 +39,7 @@ const CountriesList = () => {
 
   // Get unique regions for filter dropdown
   const regions = [
-    ...new Set(countries.map((country) => country.region)),
+    ...new Set(countries.map((country:any) => country.region)),
   ].sort();
 
   useEffect(() => {
