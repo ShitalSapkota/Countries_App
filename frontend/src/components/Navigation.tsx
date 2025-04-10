@@ -17,7 +17,7 @@ export const Navigation = () => {
         to="/" 
         sx={{ 
           flexGrow: 1,
-          typography: 'h6' // Applies h6 text styles directly
+          typography: 'h6'
         }}
       >
         Countries App
